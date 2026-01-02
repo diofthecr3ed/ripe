@@ -16,14 +16,13 @@ const Hero: React.FC<HeroProps> = ({ onOpenModal }) => {
               Accepting New Partners for Q4
             </div>
             <h1 className="text-5xl font-black leading-[1.1] tracking-tight text-text-dark sm:text-6xl xl:text-7xl">
-              Turn Your Influence into{" "}
+              We build your backend, funnel & community.{" "}
               <span className="bg-primary px-2 pt-1 pb-1 text-white transform -rotate-1 inline-block underline decoration-wavy decoration-4 underline-offset-[14px] decoration-primary">
-                Money.
+                The complete Shadow Operator.
               </span>
             </h1>
             <p className="max-w-xl text-lg text-gray-600 sm:text-xl">
-              The AI Shadow Operator for the Top 5% of Creators. We build your
-              sales engine so you can focus on creating.
+              Stop leaving money on the table. You handle the content; we handle the empire.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4">
               <button

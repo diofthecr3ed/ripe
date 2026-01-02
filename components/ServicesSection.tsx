@@ -30,29 +30,29 @@ const ServicesSection: React.FC = () => {
           <div className="order-1 lg:order-2 flex flex-col gap-8">
             <div>
               <h2 className="text-3xl font-bold tracking-tight text-text-dark sm:text-4xl mb-4">
-                Everything you need to <span className="text-primary">Scale</span>
+                What We Build <span className="text-primary">For You</span>
               </h2>
               <p className="text-gray-600 text-lg">
-                We don't just give you advice. We execute. Our team becomes your plug-and-play business unit.
+                We handle 100% of the tech, funnels, and payment processing. You focus strictly on being the face of the brand.
               </p>
             </div>
 
             <div className="space-y-6">
               {[
                 {
-                  icon: 'inventory_2',
-                  title: 'Product Positioning',
-                  desc: 'We analyze your audience to position your digital products for maximum conversion.'
+                  icon: 'campaign',
+                  title: 'VSL Funnel Infrastructure',
+                  desc: 'High-converting video sales letter funnels built on Carrd or Webflow, tailored to your demographic with "No-Brainer" guarantee structures.'
                 },
                 {
-                  icon: 'manage_accounts',
-                  title: 'Buyer Management',
-                  desc: "We don't close deals. We manage the entire buyer journey, hosting, and delivery for your digital products."
+                  icon: 'account_balance',
+                  title: 'Financing Integration',
+                  desc: 'We set up Buy Now, Pay Later options (Klarna, Affirm) so you get paid upfront while clients pay monthly.'
                 },
                 {
-                  icon: 'hub',
-                  title: 'Funnel Automation & Hosting',
-                  desc: 'Complete backend management: high-converting landing pages, sales funnels, and digital product delivery.'
+                  icon: 'forum',
+                  title: 'Discord/Skool Setup',
+                  desc: 'Full community architecture with roles, bots, permissions, and automated recurring payment gateways for seamless MRR.'
                 }
               ].map((service, idx) => (
                 <div key={idx} className="flex gap-4 group">

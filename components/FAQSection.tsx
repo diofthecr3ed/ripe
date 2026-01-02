@@ -2,40 +2,40 @@ import React, { useState } from 'react';
 
 const FAQs = [
   {
-    question: "What exactly is an AI Shadow Operator?",
-    answer: "An AI Shadow Operator acts as your invisible COO. We use advanced AI automation and human expertise to build and manage your entire business backend—sales funnels, email marketing, and product delivery—so you can focus 100% on creating content."
+    question: "Do I need to be technical to use this?",
+    answer: "No. We act as your \"Shadow Operator.\" We handle 100% of the tech, funnels, and payment processing. You focus strictly on being the face of the brand."
   },
   {
-    question: "How does Ripe Agency help creators monetize their audience?",
-    answer: "We turn passive followers into paying customers by launching high-value digital products (courses, coaching, templates). We handle the strategy, positioning, and technical infrastructure to maximize revenue without you needing to sell aggressively."
+    question: "Which platform do you use for communities?",
+    answer: "We analyze your specific offer. For course-heavy offers, we use Skool. For high-engagement chat communities, we utilize Discord. We handle the full migration and setup."
   },
   {
-    question: "What is your pricing model?",
-    answer: "We operate on a partnership basis. We charge a flexible base setup fee (determined case-by-case) to cover initial infrastructure, followed by a 30-70% revenue share on sales. We don't get paid unless you do."
+    question: "How do you handle high-ticket sales?",
+    answer: "We integrate financing partners (Klarna, Affirm) into your checkout. This allows your customers to split payments over months while you receive the full cash collected upfront."
   },
   {
-    question: "Do I need a massive following to partner with you?",
-    answer: "Not necessarily. We look for creators with high engagement and authority in their niche (typically the top 5%). Quality of audience matters more than quantity when selling premium digital products."
+    question: "What exactly do you build?",
+    answer: "We build two revenue systems: (1) High-Ticket Backend - VSL funnels for coaching with BNPL financing, and (2) Low-Ticket Engine - Discord/Skool communities with automated recurring payments."
   },
   {
-    question: "What types of digital products do you build?",
-    answer: "We specialize in high-margin assets like cohort-based courses, video guides, exclusive communities, paid newsletters, and digital templates tailored to your specific expertise and audience needs."
+    question: "What is the investment?",
+    answer: "Setup starts at $997+ depending on complexity. This covers complete funnel infrastructure, community platform setup, payment gateway integration, and offer structuring."
   },
   {
-    question: "Do you handle customer support and DMs?",
-    answer: "Yes. Our Community Ops team and AI systems manage your DMs, comments, and customer support tickets to ensure your superfans are nurtured and issues are resolved instantly."
+    question: "Who is this for?",
+    answer: "Creators with an existing audience who want a \"Done-For-You\" ecosystem. We build the tech, the funnels, and the payment processing. You just create."
   },
   {
-    question: "How is Ripe different from a traditional talent management agency?",
-    answer: "Talent agencies focus on brand deals and sponsorships. We focus on building *your* owned assets and recurring revenue streams. We build a business that you own, rather than renting your audience to other brands."
+    question: "What tools and platforms do you use?",
+    answer: "We build funnels on Carrd or Webflow, integrate Stripe for payments, set up Klarna/Affirm for financing, and configure Discord or Skool for communities based on your needs."
   },
   {
-    question: "How long does it take to launch?",
-    answer: "Our go-to-market engine is designed for speed. Typically, we can structure, build, and launch a pilot offer within 14-30 days of partnership, depending on the complexity of the product."
+    question: "How long does setup take?",
+    answer: "Typically 14-30 days depending on complexity. We handle everything from VSL funnel design to payment integration and community platform configuration."
   },
   {
-    question: "What tech stack do you use?",
-    answer: "We integrate best-in-class tools like Zapier, Carrd, Webflow, Stripe, and proprietary AI workflows to create a seamless, automated experience for your customers."
+    question: "Do you guarantee results?",
+    answer: "We build the infrastructure and \"No-Brainer\" offer structure, but results depend on your audience engagement and content. We set you up for success with proven conversion frameworks."
   }
 ];
 

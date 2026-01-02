@@ -8,10 +8,10 @@ const SolutionSection: React.FC = () => {
           <div className="max-w-2xl">
             <span className="text-sm font-bold tracking-widest text-gray-500 uppercase mb-2 block">The Solution</span>
             <h2 className="text-4xl font-black tracking-tight text-text-dark sm:text-5xl">
-              We are your <span className="bg-primary px-2 text-white">GTM Engine</span>
+              The <span className="bg-primary px-2 text-white">High-Ticket / Low-Ticket</span> Hybrid Model
             </h2>
             <p className="mt-4 text-xl text-gray-600">
-              AI-driven outreach, automated sales funnels, and tailored positioning. We act as your shadow operator.
+              We build your complete revenue infrastructure: VSL funnels for coaching, recurring communities, and seamless payment processing.
             </p>
           </div>
           <button className="hidden md:flex h-12 items-center justify-center rounded-full border-2 border-text-dark px-8 text-sm font-bold text-text-dark hover:bg-text-dark hover:text-white transition-colors">
@@ -20,39 +20,39 @@ const SolutionSection: React.FC = () => {
         </div>
 
         <div className="grid gap-8 md:grid-cols-3">
-          {/* Automation */}
+          {/* High-Ticket Backend */}
           <div className="group relative overflow-hidden rounded-xl bg-white p-8 shadow-sm transition-shadow hover:shadow-md border border-gray-100">
             <div className="absolute right-0 top-0 h-24 w-24 translate-x-8 translate-y--8 rounded-full bg-primary/10 blur-2xl group-hover:bg-primary/20 transition-colors"></div>
             <div className="relative z-10">
               <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-full bg-primary/20 text-text-dark">
-                <span className="material-symbols-outlined text-3xl">smart_toy</span>
+                <span className="material-symbols-outlined text-3xl">video_library</span>
               </div>
-              <h3 className="mb-3 text-2xl font-bold text-text-dark">AI Automation</h3>
-              <p className="text-gray-600">Seamless integration of Zapier, backend systems, and automated billing to handle your customer flows effortlessly.</p>
+              <h3 className="mb-3 text-2xl font-bold text-text-dark">High-Ticket VSL Funnels</h3>
+              <p className="text-gray-600">We build high-converting video sales letter funnels for your coaching offers, complete with BNPL financing (Klarna, Affirm) so you get paid upfront.</p>
             </div>
           </div>
 
-          {/* Tailored Infra */}
+          {/* Low-Ticket Communities */}
           <div className="group relative overflow-hidden rounded-xl bg-white p-8 shadow-sm transition-shadow hover:shadow-md border border-gray-100">
             <div className="absolute right-0 top-0 h-24 w-24 translate-x-8 translate-y--8 rounded-full bg-blue-500/10 blur-2xl group-hover:bg-blue-500/20 transition-colors"></div>
             <div className="relative z-10">
               <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-full bg-blue-100 text-blue-600">
-                <span className="material-symbols-outlined text-3xl">dns</span>
+                <span className="material-symbols-outlined text-3xl">groups</span>
               </div>
-              <h3 className="mb-3 text-2xl font-bold text-text-dark">Tailored Infra</h3>
-              <p className="text-gray-600">We build high-converting landing pages, manage checkout systems, and ensure automatic product delivery.</p>
+              <h3 className="mb-3 text-2xl font-bold text-text-dark">Community Platforms</h3>
+              <p className="text-gray-600">Full Discord or Skool setup with roles, bots, permissions, and automated payment gateways for seamless recurring revenue.</p>
             </div>
           </div>
 
-          {/* Community */}
+          {/* Payment Infrastructure */}
           <div className="group relative overflow-hidden rounded-xl bg-white p-8 shadow-sm transition-shadow hover:shadow-md border border-gray-100">
             <div className="absolute right-0 top-0 h-24 w-24 translate-x-8 translate-y--8 rounded-full bg-green-500/10 blur-2xl group-hover:bg-green-500/20 transition-colors"></div>
             <div className="relative z-10">
               <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-full bg-green-100 text-green-600">
-                <span className="material-symbols-outlined text-3xl">diversity_3</span>
+                <span className="material-symbols-outlined text-3xl">credit_card</span>
               </div>
-              <h3 className="mb-3 text-2xl font-bold text-text-dark">Community Ops</h3>
-              <p className="text-gray-600">Nurturing your superfans into customers. We manage your DMs, comments, and private communities.</p>
+              <h3 className="mb-3 text-2xl font-bold text-text-dark">Payment Integration</h3>
+              <p className="text-gray-600">We integrate Stripe, Klarna, and Affirm into your checkout so customers can split payments while you get paid upfront.</p>
             </div>
           </div>
         </div>
