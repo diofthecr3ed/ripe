@@ -18,7 +18,7 @@ const Hero: React.FC<HeroProps> = ({ onOpenModal }) => {
             <h1 className="text-5xl font-black leading-[1.1] tracking-tight text-text-dark sm:text-6xl xl:text-7xl">
               We build your backend, funnel & community.{" "}
               <span className="bg-primary px-2 pt-1 pb-1 text-white transform -rotate-1 inline-block underline decoration-wavy decoration-4 underline-offset-[14px] decoration-primary">
-                The complete Shadow Operator.
+                Turn influence to money.
               </span>
             </h1>
             <p className="max-w-xl text-lg text-gray-600 sm:text-xl">
