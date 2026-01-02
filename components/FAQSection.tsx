@@ -18,16 +18,12 @@ const FAQs = [
     answer: "We build two revenue systems: (1) High-Ticket Backend - VSL funnels for coaching with BNPL financing, and (2) Low-Ticket Engine - Discord/Skool communities with automated recurring payments."
   },
   {
-    question: "What is the investment?",
-    answer: "Setup starts at $997+ depending on complexity. This covers complete funnel infrastructure, community platform setup, payment gateway integration, and offer structuring."
-  },
-  {
     question: "Who is this for?",
     answer: "Creators with an existing audience who want a \"Done-For-You\" ecosystem. We build the tech, the funnels, and the payment processing. You just create."
   },
   {
     question: "What tools and platforms do you use?",
-    answer: "We build funnels on Carrd or Webflow, integrate Stripe for payments, set up Klarna/Affirm for financing, and configure Discord or Skool for communities based on your needs."
+    answer: "We build funnels on Whop or Typeforms, integrated for payments, set up Klarna/Affirm for financing, and configure Discord or Skool for communities based on your needs."
   },
   {
     question: "How long does setup take?",
